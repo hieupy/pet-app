@@ -185,8 +185,3 @@ submitBtn_edit.addEventListener("click", function () {
     renderTableDataEdit(petArr);
   }
 });
-
-// Add animation for sidebar
-sidebar.addEventListener("click", function () {
-  sidebar.classList.toggle("active");
-});

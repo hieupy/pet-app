@@ -138,8 +138,3 @@ function renderBreed() {
 
 // Render corresponding Breed options when Type Input is changed
 typeInput_find.addEventListener("change", renderBreed);
-
-// Add animation for sidebar
-sidebar.addEventListener("click", function () {
-  sidebar.classList.toggle("active");
-});

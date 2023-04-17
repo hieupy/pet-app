@@ -104,8 +104,3 @@ function deleteBreed(breed) {
     saveToStorage(KEY_breed, breedArr);
   }
 }
-
-// Add animation for sidebar
-sidebar.addEventListener("click", function () {
-  sidebar.classList.toggle("active");
-});

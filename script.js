@@ -193,11 +193,6 @@ healthyBtn.addEventListener("click", function () {
   }
 });
 
-// Add Animation for Sidebar
-sidebar.addEventListener("click", function () {
-  sidebar.classList.toggle("active");
-});
-
 // Get breed data from Local Storage
 const KEY_breed = "breedArr";
 const breedArr = getFromStorage(KEY_breed);

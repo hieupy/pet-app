@@ -41,8 +41,3 @@ importBtn.addEventListener("click", function () {
   // Update Local Storage
   saveToStorage(KEY, importedArr);
 });
-
-// Add animation for sidebar
-sidebar.addEventListener("click", function () {
-  sidebar.classList.toggle("active");
-});
